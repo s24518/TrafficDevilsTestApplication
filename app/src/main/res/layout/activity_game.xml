@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_game"
+        android:layout_marginTop="35dp"/>
+    <ImageView
+        android:id="@+id/doublePole"
+        android:onClick="doublePole"
+        android:src="@drawable/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+/>
+    <ImageView
+        android:id="@+id/triplePole"
+        android:onClick="triplePole"
+        android:src="@drawable/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doublePole"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+/>
+
+
+</RelativeLayout>

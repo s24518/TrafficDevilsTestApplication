@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrafficDevilsTestApplication</string>
+    <string name="response">boolean_key</string>
+    <string name="html5link">https://html5test.com/</string>
+    <string name="saved_score">SAVED_SCORE</string>
+    <string name="SPrefGame">Game</string>
+
+</resources>
